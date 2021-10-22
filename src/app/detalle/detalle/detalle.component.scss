@@ -1,0 +1,49 @@
+.detail-component{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.heroe{
+    background-color: lightpink;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+    .heroeelement{
+        background-color: lightsalmon;
+        margin: 5px;
+        padding: 5px;
+        span > b{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) { 
+    .detail-component{
+        img{
+            width: 50vh;
+            height: 50vh;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+
+    }
+}
