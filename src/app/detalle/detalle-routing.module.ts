@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DetailComponent } from './detail/detail.component';
+import { DetalleComponent } from './detalle/detalle.component';
 
 const routes: Routes = [
   {
     path: '',
     children: [
-      {path: 'detail', component: DetailComponent},
-      {path: '**', component: DetailComponent}
+      {path: 'detalle', component: DetalleComponent},
+      {path: '**', component: DetalleComponent}
     ]
   }
 ];
+
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class DetailRoutingModule { }
+export class DetalleRoutingModule { }
