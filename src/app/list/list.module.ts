@@ -5,11 +5,13 @@ import { ListRoutingModule } from './list-routing.module';
 import { ListComponent } from './list/list.component';
 import { ApiheroesService } from '../apiheroes.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HeroeDetailComponent } from './heroe-detail/heroe-detail.component';
 
 
 @NgModule({
   declarations: [
-    ListComponent
+    ListComponent,
+    HeroeDetailComponent
   ],
   imports: [
     CommonModule,
