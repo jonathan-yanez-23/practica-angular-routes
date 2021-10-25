@@ -1,0 +1,14 @@
+footer{
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    ul{
+        :hover{
+            background-color: lightblue;
+        }
+        text-decoration: none;
+        list-style: none;
+        flex-grow: 1;
+    }
+    display: flex;
+}
