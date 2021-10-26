@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DetalleComponent } from '../detalle/detalle/detalle.component';
 import { HeroeDetailComponent } from './heroe-detail/heroe-detail.component';
 import { ListComponent } from './list/list.component';
 

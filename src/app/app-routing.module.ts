@@ -15,13 +15,6 @@ const routes: Routes = [
     .then(module => module.ListModule)
   },
   {
-    path: 'detalle',
-    loadChildren: () => 
-    import('./detalle/detalle.module')
-    .then(module => module.DetalleModule)
-  },
-
-  {
     path: '**',
     redirectTo: 'home'
   }
