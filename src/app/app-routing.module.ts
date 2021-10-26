@@ -15,6 +15,12 @@ const routes: Routes = [
     .then(module => module.ListModule)
   },
   {
+    path: 'my-heroes',
+    loadChildren: () => 
+    import('./my-heroes/my-heroes.module')
+    .then(module => module.MyHeroesModule)
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
