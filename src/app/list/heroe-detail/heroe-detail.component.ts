@@ -16,7 +16,6 @@ export class HeroeDetailComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(params =>{
       this.heroeId = '' + params.get('heroeId');
-      console.log(params);
       this.apiheroesService.getCharactersById(Number(this.heroeId))
       .subscribe((data: any)=>{
         this.heroeData = {
