@@ -1,1 +1,10 @@
-<p>my-heroes-list works!</p>
+<div class="Lista">
+    <h1>LISTA</h1>
+     <div *ngFor="let heroe of myHeroes">
+        <div class="bannerheroe" [routerLink]="['.', heroe.id]">
+            <img class="bannerheroe__img" [src]="heroe.image" [alt]="heroe.name">
+            <h3 class="bannereroe__name">{{ heroe.name }}</h3>
+        </div>
+     </div>
+
+</div>
