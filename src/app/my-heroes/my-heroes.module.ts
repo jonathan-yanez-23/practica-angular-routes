@@ -7,6 +7,7 @@ import { MyHeroesDetailComponent } from './my-heroes-detail/my-heroes-detail.com
 import { LocalheroesStorageService } from '../services/localheroes-storage.service';
 import { MyHeroesCreationComponent } from './my-heroes-creation/my-heroes-creation.component';
 
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MyHeroesCreationComponent } from './my-heroes-creation/my-heroes-creati
   ],
   imports: [
     CommonModule,
-    MyHeroesRoutingModule
+    MyHeroesRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
     LocalheroesStorageService

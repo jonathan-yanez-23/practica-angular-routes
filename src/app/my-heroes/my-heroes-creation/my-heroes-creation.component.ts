@@ -14,13 +14,7 @@ export class MyHeroesCreationComponent implements OnInit {
   constructor(private localHeroesService: LocalheroesStorageService, private formBuilder: FormBuilder) {
     this.heroeRegisterForm = this.formBuilder.group({
       id: ['', [Validators.required, Validators.maxLength(4)]],
-      name: ['', [Validators.required, Validators.maxLength(20)]],
-      biography: ['', [Validators.required, Validators.maxLength(100)]],
-      powerstats: ['', [Validators.required, Validators.maxLength(100)]],
-      appearance: ['', [Validators.required, Validators.maxLength(100)]],
-      work: ['', [Validators.required, Validators.maxLength(100)]],
-      connections: ['', [Validators.required, Validators.maxLength(100)]],
-      image: ['', [Validators.required, Validators.minLength(20)]],
+
     });
    }
   
