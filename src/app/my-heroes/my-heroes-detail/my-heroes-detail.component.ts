@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Heroe } from 'src/app/models/heroes.interface';
 import { ActivatedRoute } from '@angular/router';
-import { LocalheroesStorageService } from 'src/app/localheroes-storage.service';
+import { LocalheroesStorageService } from 'src/app/services/localheroes-storage.service';
 @Component({
   selector: 'app-my-heroes-detail',
   templateUrl: './my-heroes-detail.component.html',

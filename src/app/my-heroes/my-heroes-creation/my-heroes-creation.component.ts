@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LocalheroesStorageService } from 'src/app/localheroes-storage.service';
+import { LocalheroesStorageService } from 'src/app/services/localheroes-storage.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Heroe } from 'src/app/models/heroes.interface';
 

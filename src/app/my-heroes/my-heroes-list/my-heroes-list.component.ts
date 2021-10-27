@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Heroe } from '../../models/heroes.interface';
-import { LocalheroesStorageService } from 'src/app/localheroes-storage.service';
+import { LocalheroesStorageService } from 'src/app/services/localheroes-storage.service';
 
 @Component({
   selector: 'app-my-heroes-list',

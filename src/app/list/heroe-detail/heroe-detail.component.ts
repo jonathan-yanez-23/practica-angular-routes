@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Heroe } from 'src/app/models/heroes.interface';
-import { ApiheroesService } from 'src/app/apiheroes.service';
+import { ApiheroesService } from 'src/app/services/apiheroes.service';
 import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-heroe-detail',

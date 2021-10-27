@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Heroe } from '../../models/heroes.interface';
-import { ApiheroesService } from '../../apiheroes.service';
+import { ApiheroesService } from '../../services/apiheroes.service';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
