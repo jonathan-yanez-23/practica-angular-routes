@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
-import { SortHeroeListPipe } from './sort-heroe-list.pipe';
+import { SortHeroesPipe } from './pipes/sort-heroes.pipe';
 
 @NgModule({
   imports: [],
   declarations: [
-    SortHeroeListPipe
+    SortHeroesPipe
   ],
   exports: [
-      SortHeroeListPipe
+      SortHeroesPipe
   ]
 })
 export class AppPipesModule { }
