@@ -34,4 +34,10 @@ export class LocalheroesStorageService {
   getLocalHeroes(){
     return this.myHeroes;
   }
+
+  pushLocalHeroe(heroe: Heroe){
+    // obtener longitud,
+    // asignar longitud al nuevo heroe
+    // guardar heroe en el servicio
+  }
 }
